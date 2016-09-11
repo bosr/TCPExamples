@@ -3,6 +3,6 @@ import PackageDescription
 let package = Package(
     name: "tcp-example",
 	dependencies: [
-		.Package(url: "../TCP", majorVersion: 0)
+		.Package(url: "https://github.com/VeniceX/TCP.git", majorVersion: 0, minor: 10)
 	]
 )

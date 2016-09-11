@@ -13,7 +13,6 @@ co {
 }
 
 nap(for: 200.milliseconds)
-nap(for: 200.seconds)
 
 let connection = try TCPConnection(host: "127.0.0.1", port: 8080)
 try connection.open()
